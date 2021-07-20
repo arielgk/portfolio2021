@@ -1,0 +1,58 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background: #242426;
+
+}
+.app {
+  @apply flex flex-col   min-h-screen ;
+  background: #242426;
+
+}
+.card-container {
+  @apply flex flex-row flex-wrap;
+
+  .card {
+    @apply border-b  sm:w-full md:w-1/2 pt-4 pb-10 flex flex-wrap;
+    @apply md:p-4 md:pb-24;
+    border-color: #3a3a3b;
+    background: #242426;
+
+    aside {
+      @apply w-2/12;
+      figure {
+        img {
+          @apply w-full p-2
+
+        }
+      }
+    }
+
+    main {
+      @apply pl-2 w-8/12;
+      .card-header {
+        @apply text-white text-sm;
+      }
+
+      .card-techs {
+        @apply text-gray-400 flex flex-wrap;
+        > div {
+          @apply mr-2 text-xs;
+        }
+      }
+
+    }
+  }
+}
+.card-single{
+  background: #242426;
+@apply text-white;
+  .card-single-header{
+    @apply p-4;
+    h1{
+      @apply text-3xl;
+    }
+  }
+}
