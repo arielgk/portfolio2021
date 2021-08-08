@@ -19,9 +19,10 @@ export default function Home() {
                         <p>Frontend and backend developer. I like to build interactive experiences.
                         </p>
                     </div>
-                    <div className={'hero'}>
-                        slider
-                    </div>
+                    {/*<div className={'hero'}>*/}
+                    {/*    <img src="inmigrantes.jpg"/>*/}
+                    {/*    <img src={'af-animation.gif'}/>*/}
+                    {/*</div>*/}
                 </div>
 
             </div>
