@@ -1,27 +1,5 @@
 export default [
-    {
-        id: 500,
-        slug: 'maqfly',
-        name: 'Flyer Builder- WIP',
-        desc: 'PHP - React -Redux',
-        longDesc: 'Flyer Builder with templates support',
-        img: {
-            small: '//arielkuhndev.xyz/assets/img/maqfly_small.jpg',
-            large: '//arielkuhndev.xyz/assets/img/maqfly_large.jpg'
-        },
-        video: '-EmdHCwON7k',
-        video_2: '',
-        gallery: [
-            {
-                large: '//arielkuhndev.xyz/assets/gallery/maqfly_1.jpg'
-            }
-        ],
-        techs: [
-            'faReact',
-            'faPhp',
-        ],
-        url: '#'
-    },
+
     {
         id: 1,
         slug: 'un3',
@@ -108,6 +86,28 @@ export default [
             'faJs',
             'faAndroid',
         ]
+    }, {
+        id: 500,
+        slug: 'maqfly',
+        name: 'Flyer Builder- WIP',
+        desc: 'PHP - React -Redux',
+        longDesc: 'Flyer Builder with templates support',
+        img: {
+            small: '//arielkuhndev.xyz/assets/img/maqfly_small.jpg',
+            large: '//arielkuhndev.xyz/assets/img/maqfly_large.jpg'
+        },
+        video: '-EmdHCwON7k',
+        video_2: '',
+        gallery: [
+            {
+                large: '//arielkuhndev.xyz/assets/gallery/maqfly_1.jpg'
+            }
+        ],
+        techs: [
+            'faReact',
+            'faPhp',
+        ],
+        url: '#'
     },
     {
         id: 3,

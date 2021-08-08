@@ -7,6 +7,8 @@ import Plyr from "plyr-react";
 import SwiperCore, {Navigation, Pagination, Scrollbar, A11y} from 'swiper';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faTimes, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+import Header from "../../components/Header";
+import Arrow from "../../components/Icons/arrow";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 const fetcher = async (url) => {
@@ -24,29 +26,24 @@ export default function Card() {
         () => query.slug && `/api/items/${query.slug}`,
         fetcher
     )
-    if (error) return <div>{error.message}</div>
-    if (!data) return <div>Loading...</div>
+    if (error) return <div className={'loading'}>{error.message}</div>
+    if (!data) return <div className={'loading'}>Loading...</div>
 
     return (
         <Layout>
+            <Header />
             <div className={'single'}>
 
                 <div className={'inframe'}>
                     <div className="card-single">
                         <div>
-                            <div className={'close-section'}>
-
-                                <Link href={"/"}>
-                                    <FontAwesomeIcon icon={faTimesCircle}/>
-                                </Link>
-
-                            </div>
-
                             <div className="card-single-header">
+                                <Link href={"/"}>
+                                    <Arrow/>
+                                </Link>
                                 <h1>{data.name}</h1>
                             </div>
                             <div className={'card-single-content'}>
-
                                 <p className="description">
                                     {data.longDesc}
                                 </p>
@@ -61,9 +58,7 @@ export default function Card() {
                                         }
                                     ]
                                 }}/>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
