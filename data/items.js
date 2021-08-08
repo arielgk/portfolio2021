@@ -17,8 +17,8 @@ export default [
             }
         ],
         techs: [
+            'faReact',
             'faPhp',
-            'faReact'
         ],
         url: '#'
     },
@@ -104,9 +104,9 @@ export default [
         ],
         url: 'https://un3.tv',
         techs: [
+            'faApple',
             'faJs',
             'faAndroid',
-            'faApple'
         ]
     },
     {
@@ -192,8 +192,8 @@ export default [
         ],
         url: 'https://un3.tv',
         techs: [
-            'faJs',
             'faPhp',
+            'faJs',
             'faLaravel'
         ]
     },
