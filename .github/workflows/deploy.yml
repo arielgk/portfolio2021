@@ -15,6 +15,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: 22
-          script:
-            cd ~/apps/portfolio2021
-            ls -ltr
+          script: whoami
