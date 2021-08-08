@@ -12,8 +12,8 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
-          username: ${{ secret.USERNAME }}
-          key: ${{ secret.KEY }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
           port: 22
           script:
             cd ~/apps/portfolio2021
