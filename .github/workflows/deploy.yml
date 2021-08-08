@@ -1,0 +1,20 @@
+name: Deployment workflow
+on:
+    push:
+      branches: [ master ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing connection
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secret.USERNAME }}
+          key: ${{ secret.KEY }}
+          port: 22
+          script:
+            cd ~/apps/portfolio2021
+            ls -ltr
