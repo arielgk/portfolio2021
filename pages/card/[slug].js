@@ -5,8 +5,6 @@ import Layout from "../../components/Layout";
 import "plyr-react/dist/plyr.css";
 import Plyr from "plyr-react";
 import SwiperCore, {Navigation, Pagination, Scrollbar, A11y} from 'swiper';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faTimes, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import Header from "../../components/Header";
 import Arrow from "../../components/Icons/arrow";
 
