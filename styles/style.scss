@@ -70,6 +70,10 @@ body {
     }
 
     .inner-card {
+      &:hover{
+        background: #36393f;
+
+      }
       background: #2d3037;
       @apply cursor-pointer rounded pt-4 pb-4 flex flex-wrap;
 
