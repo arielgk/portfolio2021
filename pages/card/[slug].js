@@ -29,7 +29,6 @@ export default function Card() {
 
     return (
         <Layout>
-            <Header />
             <div className={'single'}>
 
                 <div className={'inframe'}>

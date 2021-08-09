@@ -13,7 +13,6 @@ export default function Home() {
     if (!data) return <div className={'loading'}>Loading...</div>
     return (
         <Layout>
-         <Header />
 
             <div className={'app-down'}>
                 <div className={'inframe'}>
