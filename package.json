@@ -12,7 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "add": "^2.0.6",
     "fortawesome": "^0.0.1-security",
-    "next": "latest",
+    "next": "^11.1.2",
     "plyr-react": "^3.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
